@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog 1 - Habilidades Sociales | Gabriel Avalos</title>
+    <style>
+        /* --- VARIABLES DE DISEÑO --- */
+        :root {
+            --primary-color: #3498db; /* Azul académico */
+            --text-color: #333;
+            --bg-color: #f4f7f6;
+            --container-bg: #fff;
+            --shadow: 0 5px 15px rgba(0,0,0,0.08);
+            --transition: all 0.3s ease;
+        }
+
+        /* --- ESTILOS BASE --- */
+        body {
+            font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+            line-height: 1.8;
+            color: var(--text-color);
+            background-color: var(--bg-color);
+            margin: 0;
+            padding: 0;
+        }
+
+        .container {
+            max-width: 900px; /* Un poco más ancho para permitir el wrap */
+            margin: 40px auto;
+            background: var(--container-bg);
+            padding: 50px;
+            border-radius: 16px;
+            box-shadow: var(--shadow);
+            box-sizing: border-box;
+        }
+
+        /* --- CABECERA --- */
+        h1 {
+            color: #2c3e50;
+            text-align: center;
+            font-size: 2.8em;
+            margin-bottom: 10px;
+            border-bottom: 4px solid var(--primary-color);
+            display: inline-block;
+            left: 50%;
+            transform: translateX(-50%);
+            position: relative;
+            padding-bottom: 10px;
+        }
+
+        .post-meta {
+            text-align: center;
+            color: #7f8c8d;
+            font-size: 1em;
+            margin-bottom: 40px;
+            font-style: italic;
+            clear: both; /* Asegura que no se pegue a nada flotante */
+        }
+
+        /* --- CONTENIDO Y TEXTO --- */
+        .content {
+            font-size: 1.15em;
+            text-align: justify;
+        }
+
+        .content p {
+            margin-bottom: 20px;
+            margin-top: 0;
+        }
+
+        /* --- 🖼️ ESTILOS DINÁMICOS DE IMÁGENES (UX MEJORADA) --- */
+        
+        /* Clase base para todas las fotos */
+        .blog-image {
+            border-radius: 12px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+            transition: var(--transition);
+            object-fit: cover;
+            /* Evita que sean demasiado grandes en PC */
+            max-width: 280px; 
+            height: auto;
+        }
+
+        /* Efecto interactivo al pasar el mouse */
+        .blog-image:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 8px 20px rgba(0,0,0,0.15);
+        }
+
+        /* Clases para alinear con el texto (PC) */
+        .img-left {
+            float: left;
+            margin-right: 25px;
+            margin-bottom: 15px;
+        }
+
+        .img-right {
+            float: right;
+            margin-left: 25px;
+            margin-bottom: 15px;
+        }
+
+        /* Limpiar floats para elementos de bloque como bibliografía o comentarios */
+        .clearfix {
+            clear: both;
+        }
+
+        /* --- SECCIONES FINALES --- */
+        .bibliography {
+            margin-top: 50px;
+            padding: 25px;
+            border-top: 2px solid #eee;
+            background-color: #fafafa;
+            border-radius: 8px;
+            clear: both;
+        }
+
+        .bibliography h3 {
+            color: #2c3e50;
+            margin-top: 0;
+        }
+
+        .comments-section {
+            margin-top: 60px;
+            padding-top: 30px;
+            border-top: 2px solid #ddd;
+            clear: both;
+        }
+
+        .comments-section h3 {
+            text-align: center;
+            color: #2c3e50;
+            margin-bottom: 20px;
+        }
+
+        /* --- 📱 MEDIA QUERY (HACE EL DISEÑO DINÁMICO PARA CELULARES) --- */
+        @media (max-width: 768px) {
+            .container {
+                margin: 10px;
+                padding: 20px;
+            }
+
+            h1 {
+                font-size: 2em;
+            }
+
+            /* En celular, las imágenes ya no flotan */
+            .img-left, .img-right {
+                float: none;
+                display: block;
+                margin: 20px auto; /* Se centran */
+                max-width: 100%; /* Ocupan el ancho disponible */
+                width: 90%; /* Un pequeño margen a los lados */
+            }
+            
+            .content p {
+                font-size: 1em; /* Texto un poco más pequeño en celular */
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <header style="text-align: center;">
+            <h1>Qué diablos me pasa… tips para el manejo de la ira</h1>
+        </header>
+        
+        <div class="post-meta">
+            Autor: Gabriel Avalos | 00327381 | Habilidades Sociales 2593
+        </div>
+
+        <div class="content">
+            <img src="img2.jpeg" alt="Gabo representando tranquilidad" class="blog-image img-left">
+
+            <p>El manejo de nuestras emociones es fundamental en nuestro diario vivir. Estas son los desencadenantes de nuestras acciones y, por tanto, dictan la forma en la que tomamos decisiones y respondemos a los estímulos de nuestro entorno. Debemos entender que cada uno de nosotros percibe de forma distinta estos estímulos, ya provengan del ambiente, de nuestro círculo social o de nuestro propio actuar.</p>
+
+            <p>A partir de ello, la forma en la que manejamos la ira se vuelve un concepto central. A pesar de considerarme una persona que tiene que lidiar muy pocas veces con situaciones de enojo debido a mi personalidad alegre y tranquila, reconozco que cada uno de nosotros tiene distintas formas en las que esta emoción se puede presentar. En este contexto, es muy importante entender que no debemos minimizar la ira bajo ninguna circunstancia. Debemos sentirla, procesarla y entenderla para, de esa forma, poder tomar decisiones coherentes y responsables, primordialmente con nosotros mismos y con nuestro buen vivir social.</p>
+
+            <img src="img1.jpeg" alt="Ilustración de meditación y control" class="blog-image img-right">
+
+            <p>Cuando me toca procesar la ira, trato de interiorizar lo que siento y entender el origen de esta emoción. Esto me permite tener un panorama amplio y completo de cómo me siento y cómo puedo llegar a una solución. Trato de hacerlo de manera rápida para que mis siguientes acciones y pensamientos no se distorsionen ni pierdan objetividad. En caso de que la ira evoque ansiedad o impotencia, trato de relajarme físicamente primero, haciendo respiraciones profundas o recurriendo a la meditación para controlar este flujo en mi ser.</p>
+
+            <p>Posterior a ello, evalúo un abanico de posibilidades para mi siguiente paso. Analizo rápidamente la mejor opción y no me quedo preocupado por si fue la más efectiva de todas; más bien, me mantengo atento a su margen de error. Constantemente trato de ir mejorando mi toma de decisiones con respecto a la anterior, sin abrumarme, pero entendiendo que a veces puede haber daños colaterales en el camino hacia la mejor elección.</p>
+
+            <img src="img3.jpeg" alt="Gabo haciendo actividad física" class="blog-image img-left">
+
+            <p>Una de las herramientas que más me ayuda en este proceso de regulación es la actividad física. Ya sea entrenando con intensidad, nadando o simplemente conectando con el entorno, el movimiento me permite drenar cualquier tensión acumulada. Al mantener mi cuerpo activo, logro despejar mi mente, lo que facilita esa rápida evaluación de opciones y me permite mantener mi personalidad tranquila frente a los desafíos diarios.</p>
+        </div>
+
+        <div class="clearfix"></div>
+
+        <div class="bibliography">
+            <h3>Fuentes Bibliográficas (Inspiración)</h3>
+            <ul>
+                <li>[Reemplaza: Autor/Libro de la semana]</li>
+                <li>[Reemplaza: Material académico extra investigado]</li>
+            </ul>
+        </div>
+
+        <div class="comments-section">
+            <h3>¿Qué te pareció? ¡Deja tu comentario!</h3>
+            
+            <script src="https://giscus.app/client.js"
+        data-repo="Gabriel-Avalos28/BlogHS"
+        data-repo-id="R_kgDOR5zDsA"
+        data-category="General"
+        data-category-id="DIC_kwDOR5zDsM4C6DQT"
+        data-mapping="title"
+        data-strict="0"
+        data-reactions-enabled="1"
+        data-emit-metadata="0"
+        data-input-position="bottom"
+        data-theme="light"
+        data-lang="es"
+        crossorigin="anonymous"
+        async>
+</script>
+
+        </div>
+    </div>
+
+</body>
+</html>
