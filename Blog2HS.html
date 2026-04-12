@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog 2 - Habilidades Sociales | Gabriel Avalos</title>
+    <style>
+        /* --- VARIABLES DE DISEÑO --- */
+        :root {
+            --primary-color: #3498db; /* Azul académico */
+            --text-color: #333;
+            --bg-color: #f4f7f6;
+            --container-bg: #fff;
+            --shadow: 0 5px 15px rgba(0,0,0,0.08);
+            --transition: all 0.3s ease;
+        }
+
+        /* --- ESTILOS BASE --- */
+        body {
+            font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+            line-height: 1.8;
+            color: var(--text-color);
+            background-color: var(--bg-color);
+            margin: 0;
+            padding: 0;
+        }
+
+        .container {
+            max-width: 900px; 
+            margin: 40px auto;
+            background: var(--container-bg);
+            padding: 50px;
+            border-radius: 16px;
+            box-shadow: var(--shadow);
+            box-sizing: border-box;
+        }
+
+        /* --- CABECERA --- */
+        h1 {
+            color: #2c3e50;
+            text-align: center;
+            font-size: 2.8em;
+            margin-bottom: 10px;
+            border-bottom: 4px solid var(--primary-color);
+            display: inline-block;
+            left: 50%;
+            transform: translateX(-50%);
+            position: relative;
+            padding-bottom: 10px;
+        }
+
+        .post-meta {
+            text-align: center;
+            color: #7f8c8d;
+            font-size: 1em;
+            margin-bottom: 40px;
+            font-style: italic;
+            clear: both; 
+        }
+
+        /* --- CONTENIDO Y TEXTO --- */
+        .content {
+            font-size: 1.15em;
+            text-align: justify;
+        }
+
+        .content p {
+            margin-bottom: 20px;
+            margin-top: 0;
+        }
+
+        /* --- 🖼️ ESTILOS DINÁMICOS DE IMÁGENES (UX MEJORADA) --- */
+        
+        .blog-image {
+            border-radius: 12px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+            transition: var(--transition);
+            object-fit: cover;
+            max-width: 280px; 
+            height: auto;
+        }
+
+        .blog-image:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 8px 20px rgba(0,0,0,0.15);
+        }
+
+        .img-left {
+            float: left;
+            margin-right: 25px;
+            margin-bottom: 15px;
+        }
+
+        .img-right {
+            float: right;
+            margin-left: 25px;
+            margin-bottom: 15px;
+        }
+
+        .clearfix {
+            clear: both;
+        }
+
+        /* --- SECCIONES FINALES --- */
+        .bibliography {
+            margin-top: 50px;
+            padding: 25px;
+            border-top: 2px solid #eee;
+            background-color: #fafafa;
+            border-radius: 8px;
+            clear: both;
+        }
+
+        .bibliography h3 {
+            color: #2c3e50;
+            margin-top: 0;
+            margin-bottom: 15px;
+        }
+        
+        .bibliography ul {
+            margin: 0;
+            padding-left: 20px;
+        }
+
+        .comments-section {
+            margin-top: 60px;
+            padding-top: 30px;
+            border-top: 2px solid #ddd;
+            clear: both;
+        }
+
+        .comments-section h3 {
+            text-align: center;
+            color: #2c3e50;
+            margin-bottom: 20px;
+        }
+
+        /* --- 📱 MEDIA QUERY (HACE EL DISEÑO DINÁMICO PARA CELULARES) --- */
+        @media (max-width: 768px) {
+            .container {
+                margin: 10px;
+                padding: 20px;
+            }
+
+            h1 {
+                font-size: 2em;
+            }
+
+            .img-left, .img-right {
+                float: none;
+                display: block;
+                margin: 20px auto; 
+                max-width: 100%; 
+                width: 90%; 
+            }
+            
+            .content p {
+                font-size: 1em; 
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <header style="text-align: center;">
+            <h1>Yo y mis tabús… una mirada interna hacia mis prejuicios</h1>
+        </header>
+        
+        <div class="post-meta">
+            Autor: Gabriel Avalos | 00327381 | Habilidades Sociales 2593
+        </div>
+
+        <div class="content">
+            <img src="img_ai.jpeg" alt="Gabriel reflexionando con la computadora" class="blog-image img-left">
+
+            <p>En mi intento por descifrar cómo construir un camino hacia nuestro lado interno —ese que muchas veces genera prejuicios y tabúes de forma inconsciente al considerarlos como algo "normal" dentro de nuestra cosmovisión—, decidí recurrir al mayor centro de información que guarda y analiza nuestros patrones de comportamiento y pensamiento en la actualidad: la inteligencia artificial.</p>
+
+            <p>Partiendo de ello, consulté a los dos asistentes virtuales de inteligencia artificial que más uso hoy en día, Gemini y ChatGPT, para cuestionarme a qué prejuicios soy susceptible dependiendo de la imagen construida sobre mí en sus bases de datos. Al iniciar con esta actividad, mi primer objeto de análisis lo relacioné directamente con los contenidos revisados sobre la "Percepción" en mi clase de Habilidades Sociales. Empecé a reflexionar sobre la influencia de la inteligencia artificial en la toma de decisiones, un espacio donde podrían salir a la luz algunos sesgos o prejuicios que no necesariamente coinciden con la realidad.</p>
+
+            <img src="img_asia.jpeg" alt="Contraste cultural en Asia" class="blog-image img-right">
+
+            <p>Posteriormente, y reflexionando acerca de los límites que debemos mantener con la inteligencia artificial en ejercicios de autoanálisis e introspección, decidí llevar este análisis a un terreno más tangible. Empecé a analizar los posibles prejuicios presentes en mi actual experiencia de intercambio universitario. Al encontrarme en Asia Oriental, he notado que la cultura y el estilo de vida, en comparación con Ecuador, presentan una diferencia abismal que abarca desde la manera de comunicarse hasta la forma de vestir.</p>
+
+            <p>Desde una mirada superficial, se podría llegar a pensar que en esta cultura su forma de expresarse resulta ser muy directa, fría o poco emotiva. Sin embargo, es aquí donde radica la importancia de mantener siempre la mente abierta y estar dispuesto a vivir nuevas experiencias, entendiendo y respetando las diferencias culturales. Debemos ser conscientes de que nos encontramos en constante aprendizaje, y una excelente forma de acelerar este proceso es salir de nuestra zona de confort. Aprender de diversas ramas de la vida, conocer a nuevas personas, mantenernos informados y abrir debates respetuosos nos permite ir eliminando prejuicios y tabúes, derribando así las barreras ideológicas en favor de nuestro bienestar y cohesión social.</p>
+        </div>
+
+        <div class="clearfix"></div>
+
+        <div class="bibliography">
+            <h3>Fuentes Bibliográficas (Inspiración)</h3>
+            <ul>
+                <li>Myers, D., Martínez, M., Rosales, F., & Ayala, E. <i>Introducción a la psicología social</i> (Capítulo 1: Introducción a la psicología social).</li>
+                <li>Material académico extra investigado: Interacciones y consultas analíticas de sesgos cognitivos mediante Inteligencia Artificial (Gemini, ChatGPT).</li>
+            </ul>
+        </div>
+
+        <div class="comments-section">
+            <h3>¿Qué te pareció? ¡Deja tu comentario!</h3>
+            
+            <script src="https://giscus.app/client.js"
+        data-repo="Gabriel-Avalos28/BlogHS"
+        data-repo-id="R_kgDOR5zDsA"
+        data-category="General"
+        data-category-id="DIC_kwDOR5zDsM4C6DQT"
+        data-mapping="title"
+        data-strict="0"
+        data-reactions-enabled="1"
+        data-emit-metadata="0"
+        data-input-position="bottom"
+        data-theme="light"
+        data-lang="es"
+        crossorigin="anonymous"
+        async>
+</script>
+
+        </div>
+    </div>
+
+</body>
+</html>
